@@ -1,0 +1,45 @@
+/* Set the height of the navbar */
+.navbar {
+  height: 80px;
+}
+
+/* Style the brand link */
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Center the brand link vertically */
+.navbar-brand > img {
+  margin-top: 8px;
+}
+
+/* Set the height of the table */
+.table {
+  height: calc(100vh - 150px);
+}
+
+/* Add a background color to the table header */
+.table thead {
+  background-color: #f8f9fa;
+}
+
+/* Style the table rows */
+.table tbody tr {
+  cursor: pointer;
+}
+
+/* Style the filter rule form */
+.form-group {
+  margin-bottom: 1rem;
+}
+
+/* Style the submit button */
+.btn-primary {
+  width: 100%;
+}
+
+/* Add a gradient background color to the app */
+body {
+  background: linear-gradient(to bottom, #1a8cff, #0077e6);
+}
